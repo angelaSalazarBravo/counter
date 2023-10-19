@@ -21,3 +21,22 @@ button_sum.addEventListener('click', function(){
   count += 1;
   numberElement.textContent = count;
 });
+
+/*
+const count_literal = {
+  reset: () => {
+    count = 0;
+    return count;
+  },
+  increase: () => ++count;
+  decrease: () => --count;
+}
+
+
+
+butttons.foreach((buton) => {
+    button.addEventListener("click, () => 
+      account.textcontent = count_literal[button.textcontent]();
+    });
+
+*/
